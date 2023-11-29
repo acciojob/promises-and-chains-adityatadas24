@@ -17,7 +17,7 @@ buttons.addEventListener("click", (event)  =>{
 			}
 			else {
 				reject(
-					alert(`oh sorry Doe. You aren't old enough.`)
+					alert(`Oh sorry Doe. You aren't old enough.`)
 				)
 			}
 		},4000)
