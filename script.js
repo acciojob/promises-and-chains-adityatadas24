@@ -3,22 +3,25 @@ let buttons = document.getElementById("btn");
 
 buttons.addEventListener("click", (event)  =>{
 	event.preventDefault();
-	let nameinput = document.getElementById("name").value;
-	let ageinput = document.getElementById("age").value;
+	let name = document.getElementById("name").value;
+	let age = document.getElementById("age").value;
 
 	return new Promise((resolve, reject) => {
 		setTimeout(()=>{
-			if(age > 18){
+			if(age > 18) {
+				
 				resolve(
-					alert(`Welcome, John.you can vote`)
+					alert(`Welcome, ${name}.You can vote`)
 				)
 				
 			}
 			else {
 				reject(
-					alert(`oh sorry Doe.You aren't old enough`)
+					alert(`oh sorry ${name}.You aren't old enough`)
 				)
 			}
 		},4000)
 	})
 })
+
+
