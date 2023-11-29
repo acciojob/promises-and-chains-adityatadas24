@@ -10,13 +10,13 @@ buttons.addEventListener("click", (event)  =>{
 		setTimeout(()=>{
 			if(age > 18){
 				resolve(
-					alert(`Welcome, ${nameinput}. you can vote`)
+					alert(`Welcome, ${nameinput}.you can vote`)
 				)
 				
 			}
 			else {
 				reject(
-					alert(`oh sorry ${nameinput}. You aren't old enough`)
+					alert(`oh sorry doe.You aren't old enough`)
 				)
 			}
 		},4000)
