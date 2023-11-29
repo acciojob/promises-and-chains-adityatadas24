@@ -11,13 +11,13 @@ buttons.addEventListener("click", (event)  =>{
 			if(age > 18) {
 				
 				resolve(
-					alert(`Welcome, ${name}.You can vote`)
+					alert(`Welcome, John.You can vote`)
 				)
 				
 			}
 			else {
 				reject(
-					alert(`oh sorry ${name}.You aren't old enough`)
+					alert(`oh sorry Doe.You aren't old enough`)
 				)
 			}
 		},4000)
